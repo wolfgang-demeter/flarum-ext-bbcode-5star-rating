@@ -1,0 +1,28 @@
+{
+    "name": "wolfgang-demeter/flarum-ext-bbcode-5star-rating",
+    "description": "Rate some things in Flarum with 5 stars - but in half-star increments!",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/",
+        "issues": "https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/issues",
+        "source": "https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating"
+    },
+    "require": {
+        "flarum/core": "^1.0",
+        "flarum/bbcode": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"WD\\BBCode\\FiveStarRating\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BBCode 5 Star Rating",
+            "icon": {
+                "name": "fas fa-star",
+                "backgroundColor": "#765",
+                "color": "#fb7"
+            }
+        }
+    }
+}
