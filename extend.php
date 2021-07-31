@@ -11,7 +11,7 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBcodes->addCustom(
-                '[FIVESTAR rating={RANGE=0,10}][/FIVESTAR]',
+                '[FIVESTAR rating={RANGE=0,10}]',
                 '<span class="bbcodeFiveStarRating">
                     <xsl:choose>
                         <xsl:when test="@rating=\'0\'"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></xsl:when>

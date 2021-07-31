@@ -7,17 +7,17 @@ Run `composer require wolfgang-demeter/flarum-ext-bbcode-5star-rating` in Flarum
 ## Usage
 | Stars | Code |
 | --- | --- |
-| 0 stars | `[fivestar rating=0][/fivestar]` |
-| 0.5 stars | `[fivestar rating=1][/fivestar]` |
-| 1 star | `[fivestar rating=2][/fivestar]` |
-| 1.5 stars | `[fivestar rating=3][/fivestar]` |
-| 2 stars | `[fivestar rating=4][/fivestar]` |
-| 2.5 stars | `[fivestar rating=5][/fivestar]` |
-| 3 stars | `[fivestar rating=6][/fivestar]` |
-| 3.5 stars | `[fivestar rating=7][/fivestar]` |
-| 4 stars | `[fivestar rating=8][/fivestar]` |
-| 4.5 stars | `[fivestar rating=9][/fivestar]` |
-| 5 stars | `[fivestar rating=10][/fivestar]` |
+| 0 stars | `[fivestar rating=0]` |
+| 0.5 stars | `[fivestar rating=1]` |
+| 1 star | `[fivestar rating=2]` |
+| 1.5 stars | `[fivestar rating=3]` |
+| 2 stars | `[fivestar rating=4]` |
+| 2.5 stars | `[fivestar rating=5]` |
+| 3 stars | `[fivestar rating=6]` |
+| 3.5 stars | `[fivestar rating=7]` |
+| 4 stars | `[fivestar rating=8]` |
+| 4.5 stars | `[fivestar rating=9]` |
+| 5 stars | `[fivestar rating=10]` |
 
 ## Screenshots
 tba...
