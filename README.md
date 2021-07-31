@@ -1,5 +1,7 @@
 # flarum-ext-flarum-ext-bbcode-5star-rating
-Insert Ratings in your posts.
+Insert Ratings into your posts in half-star increments.
+
+This extension uses the defined secondary color (`@secondary-color`) of Flarum to highlight the rating.
 
 ## Installation
 Run `composer require wolfgang-demeter/flarum-ext-bbcode-5star-rating` in Flarum's folder.
@@ -21,4 +23,3 @@ Run `composer require wolfgang-demeter/flarum-ext-bbcode-5star-rating` in Flarum
 
 ## Screenshots
 ![grafik](https://user-images.githubusercontent.com/4437946/127745862-4725a2da-194d-47a9-8cb1-c53275168d4e.png)
-
