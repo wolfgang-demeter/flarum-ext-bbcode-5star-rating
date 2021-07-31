@@ -20,4 +20,5 @@ Run `composer require wolfgang-demeter/flarum-ext-bbcode-5star-rating` in Flarum
 | 5 stars | `[fivestar rating=10]` |
 
 ## Screenshots
-tba...
+![grafik](https://user-images.githubusercontent.com/4437946/127745862-4725a2da-194d-47a9-8cb1-c53275168d4e.png)
+
