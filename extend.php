@@ -7,12 +7,13 @@ use s9e\TextFormatter\Configurator;
 
 return [
     (new Extend\Frontend('forum'))
+        ->js(__DIR__.'/js/dist/forum.js')
         ->css(__DIR__ . '/resources/less/forum.less'),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBcodes->addCustom(
                 '[FIVESTAR rating={RANGE=0,10}]',
-                '<span class="bbcodeFiveStarRating">
+                '<span class="bbcode-fivestar-rating">
                     <xsl:choose>
                         <xsl:when test="@rating=\'0\'"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></xsl:when>
                         <xsl:when test="@rating=\'1\'"><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></xsl:when>
