@@ -13,17 +13,16 @@ export default class FiveStarRatingButton extends Component {
     return (
       <Tooltip text="5 Star Rating">
         <Button
-            className={classList([
-                'Button',
-                'hasIcon',
-                'fof-upload-button',
-                'Button--icon',
-                'Button--link',
-            ])}
-            icon={'fas fa-star'}
-            onclick={this.FiveStarRatingButtonClicked.bind(this)}
+          className={classList([
+            'Button',
+            'hasIcon',
+            'Button--icon',
+            'Button--link',
+          ])}
+          icon={'fas fa-star'}
+          onclick={this.FiveStarRatingButtonClicked.bind(this)}
         >
-            <span className="Button-label">5 Star Rating Label</span>
+          <span className="Button-label">5 Star Rating Label</span>
         </Button>
       </Tooltip>
     );
