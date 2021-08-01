@@ -1,4 +1,4 @@
-# flarum-ext-flarum-ext-bbcode-5star-rating
+# flarum-ext-bbcode-5star-rating
 Insert Ratings into your posts in half-star increments.
 
 This extension uses the defined secondary color (`@secondary-color`) of Flarum to highlight the rating.
