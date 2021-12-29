@@ -1,17 +1,14 @@
 import app from 'flarum/common/app';
 import Component from 'flarum/common/Component';
 import Button from 'flarum/common/components/Button';
-// import LoadingIndicator from 'flarum/common/components/LoadingIndicator';
 import classList from 'flarum/common/utils/classList';
+import FiveStarRatingModal from './FiveStarRatingModal';
 import Tooltip from 'flarum/common/components/Tooltip';
-// import ItemList from 'flarum/common/utils/ItemList';
-// import Modal from 'flarum/common/components/Modal';
-import styleSelectedText from 'flarum/common/utils/styleSelectedText';
 
 export default class FiveStarRatingButton extends Component {
   view() {
     return (
-      <Tooltip text="5 Star Rating">
+      <Tooltip text="{app.translator.trans('flarum-ext-bbcode-5star-rating.forum.button.tooltip')}">
         <Button
           className={classList([
             'Button',
@@ -22,7 +19,7 @@ export default class FiveStarRatingButton extends Component {
           icon={'fas fa-star'}
           onclick={this.FiveStarRatingButtonClicked.bind(this)}
         >
-          <span className="Button-label">5 Star Rating Label</span>
+          <span className="Button-label">{app.translator.trans('flarum-ext-bbcode-5star-rating.forum.button.label')}</span>
         </Button>
       </Tooltip>
     );
@@ -34,6 +31,9 @@ export default class FiveStarRatingButton extends Component {
    * @param {PointerEvent} e
    */
   FiveStarRatingButtonClicked(e) {
-    styleSelectedText(app.composer.editor.el, { prefix: '[fivestar rating=', suffix: ']' });
+    e.preventDefault();
+
+    // Open dialog
+    app.modal.show(FiveStarRatingModal, {});
   }
 }

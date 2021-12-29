@@ -1,0 +1,37 @@
+:root {
+  --bbcode-fivestar-rating-color: @secondary-color;
+}
+
+.bbcode-fivestar-rating {
+  color: var(--bbcode-fivestar-rating-color);
+  white-space: nowrap;
+}
+
+.Modal.modal-dialog.bbcode-fivestar-rating-modal {
+  @media only screen and (min-width: 768px) {
+    max-width: 320px;
+  }
+
+  .bbcode-fivestar-rating-buttons {
+    display: flex;
+    flex-direction: column;
+
+    button.Button span.Button-label {
+      display: flex;
+      justify-content: space-evenly;
+      gap: .5rem;
+
+      span.icons {
+        width: 50%;
+        text-align: right;
+        color: var(--bbcode-fivestar-rating-color);
+      }
+
+      span.text {
+        width: 50%;
+        text-align: left;
+        font-weight: 600;
+      }
+    }
+  }
+}

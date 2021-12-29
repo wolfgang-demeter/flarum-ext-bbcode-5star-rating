@@ -4,9 +4,11 @@
     "dependencies": {
         "flarum-webpack-config": "^1.0.0",
         "webpack": "^4.0.0",
-        "webpack-cli": "^3.0.7"
+        "webpack-cli": "^4.0.0"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "flarum-tsconfig": "^1.0.0"
+    },
     "scripts": {
         "dev": "webpack --mode development --watch",
         "build": "webpack --mode production"

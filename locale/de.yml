@@ -1,0 +1,20 @@
+flarum-ext-bbcode-5star-rating:
+  forum:
+    button:
+      tooltip: 5 Sterne Bewertung
+      label: 5 Sterne Bewertung
+
+    modal:
+      headline: Bewertung auswählen
+      stars_0: 0 Sterne
+      stars_1: 0,5 Sterne
+      stars_2: 1 Sterne
+      stars_3: 1,5 Sterne
+      stars_4: 2 Sterne
+      stars_5: 2,5 Sterne
+      stars_6: 3 Sterne
+      stars_7: 3,5 Sterne
+      stars_8: 4 Sterne
+      stars_9: 4,5 Sterne
+      stars_10: 5 Sterne
+      cancel: Abbrechen
