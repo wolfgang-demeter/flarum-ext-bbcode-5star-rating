@@ -20,8 +20,8 @@
             "title": "BBCode 5 Star Rating",
             "icon": {
                 "name": "fas fa-star",
-                "backgroundColor": "#765",
-                "color": "#fb7"
+                "backgroundColor": "#282a36",
+                "color": "#ff79c6"
             }
         }
     }
