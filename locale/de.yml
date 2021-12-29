@@ -1,7 +1,7 @@
 flarum-ext-bbcode-5star-rating:
   forum:
     button:
-      tooltip: 5 Sterne Bewertung
+      tooltip: 5 Sterne Bewertung auswählen
       label: 5 Sterne Bewertung
 
     modal:

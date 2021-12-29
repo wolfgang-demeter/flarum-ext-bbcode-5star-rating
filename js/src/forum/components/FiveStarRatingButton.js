@@ -8,7 +8,7 @@ import Tooltip from 'flarum/common/components/Tooltip';
 export default class FiveStarRatingButton extends Component {
   view() {
     return (
-      <Tooltip text="{app.translator.trans('flarum-ext-bbcode-5star-rating.forum.button.tooltip')}">
+      <Tooltip text={app.translator.trans('flarum-ext-bbcode-5star-rating.forum.button.tooltip')}>
         <Button
           className={classList([
             'Button',
