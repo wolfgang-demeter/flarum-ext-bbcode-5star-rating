@@ -8,13 +8,14 @@
 }
 
 .Modal.modal-dialog.bbcode-fivestar-rating-modal {
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: @screen-tablet) {
     max-width: 320px;
   }
 
   .bbcode-fivestar-rating-buttons {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
 
     button.Button span.Button-label {
       display: flex;

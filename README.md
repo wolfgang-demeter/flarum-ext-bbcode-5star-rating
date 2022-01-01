@@ -5,7 +5,9 @@ Insert Ratings into your posts in half-star increments.
 Run `composer require wolfgang-demeter/flarum-ext-bbcode-5star-rating` in Flarum's folder.
 
 ## Usage
-| Stars | Code |
+You can either select your rating via a modal, by clicking on the Star-Icon in the Text-Editor or you can directly use the BBCode below.
+
+| Stars | BBCode |
 | --- | --- |
 | 0 stars | `[fivestar rating=0]` |
 | 0.5 stars | `[fivestar rating=1]` |
@@ -28,4 +30,7 @@ This extension uses the defined secondary color (`@secondary-color`) of Flarum t
 ```
 
 ## Screenshots
+### Select your rating
+![grafik](https://user-images.githubusercontent.com/4437946/147848363-399256fb-c9c5-4515-b815-752ca9713e9a.png)
+### Show your rating
 ![grafik](https://user-images.githubusercontent.com/4437946/127745862-4725a2da-194d-47a9-8cb1-c53275168d4e.png)

@@ -57,9 +57,7 @@ export default class FiveStarRatingModal extends Modal {
                 <span class="text">{app.translator.trans('flarum-ext-bbcode-5star-rating.forum.modal.stars_10')}</span>
               </Button>
             </div>
-          </div>
 
-          <div className="Modal-footer">
             <Button onclick={this.hide.bind(this)} className="Button">
               {app.translator.trans('flarum-ext-bbcode-5star-rating.forum.modal.cancel')}
             </Button>
