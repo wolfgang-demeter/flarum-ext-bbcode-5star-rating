@@ -8,7 +8,7 @@ flarum-ext-bbcode-5star-rating:
       headline: Bewertung auswählen
       stars_0: 0 Sterne
       stars_1: 0,5 Sterne
-      stars_2: 1 Sterne
+      stars_2: 1 Stern
       stars_3: 1,5 Sterne
       stars_4: 2 Sterne
       stars_5: 2,5 Sterne
